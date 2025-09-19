@@ -57,21 +57,29 @@
   </section>
 
   <section id="contact">
-  <h2>Contact</h2>
-  <!-- Note: For privacy, DO NOT display your contact number anywhere on this site. Only email and contact form are present. -->
+  <h2 class="contact-title">📬 Contact Me</h2>
+  <p class="contact-description">I'd love to hear from you! Fill out the form below and I'll get back to you soon.</p>
+
   <form id="contact-form" action="https://formspree.io/f/yourformid" method="POST">
-    <label for="name">Name</label>
-    <input id="name" name="name" required />
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input id="name" name="name" required placeholder="Your full name" />
+    </div>
 
-    <label for="email">Email</label>
-    <input id="email" name="email" type="email" required />
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required placeholder="you@example.com" />
+    </div>
 
-    <label for="message">Message</label>
-    <textarea id="message" name="message" rows="5" required></textarea>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+    </div>
 
-    <button type="submit">Send</button>
+    <button type="submit" class="submit-button">Send Message</button>
   </form>
-  <div id="form-status" aria-live="polite"></div>
+
+  <div id="form-status" aria-live="polite" class="form-status"></div>
 </section>
 
   <footer>
