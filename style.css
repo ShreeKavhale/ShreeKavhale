@@ -62,6 +62,33 @@ header p {
   color: #333;
 }
 
+
+.contact-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: linear-gradient(90deg, #e67e22 40%, #f9d423 100%);
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 18px rgba(230, 126, 34, 0.15);
+  transition: 
+    background 0.3s cubic-bezier(0.4,0,0.2,1),
+    color 0.3s cubic-bezier(0.4,0,0.2,1),
+    box-shadow 0.3s cubic-bezier(0.4,0,0.2,1),
+    transform 0.2s cubic-bezier(0.4,0,0.2,1);
+}
+
+.contact-btn:hover,
+.contact-btn:focus {
+  background: linear-gradient(90deg, #f9d423 40%, #e67e22 100%);
+  color: #222;
+  box-shadow: 0 8px 24px rgba(230, 126, 34, 0.25);
+  transform: translateY(-3px) scale(1.04);
+  outline: none;
+}
 @media (max-width: 768px) {
   .about-content {
     flex-direction: column;
@@ -136,3 +163,29 @@ footer {
   color: white;
 }
 
+.contact-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: linear-gradient(90deg, #e67e22 40%, #f9d423 100%);
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 18px rgba(230, 126, 34, 0.15);
+  transition: 
+    background 0.3s cubic-bezier(0.4,0,0.2,1),
+    color 0.3s cubic-bezier(0.4,0,0.2,1),
+    box-shadow 0.3s cubic-bezier(0.4,0,0.2,1),
+    transform 0.2s cubic-bezier(0.4,0,0.2,1);
+}
+
+.contact-btn:hover,
+.contact-btn:focus {
+  background: linear-gradient(90deg, #f9d423 40%, #e67e22 100%);
+  color: #222;
+  box-shadow: 0 8px 24px rgba(230, 126, 34, 0.25);
+  transform: translateY(-3px) scale(1.04);
+  outline: none;
+}
