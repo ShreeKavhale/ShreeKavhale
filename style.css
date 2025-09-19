@@ -46,8 +46,8 @@ header p {
 }
 
 .about-pic {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
@@ -94,8 +94,8 @@ h2 {
 
 /* Basic responsive rules */
 .profile-pic {
-  width: 140px;
-  height: 140px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
 }
