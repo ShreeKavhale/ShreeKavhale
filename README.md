@@ -12,10 +12,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:your-email@gmail.com"
+      url: "mailto:shreeyash.kavhale.2024@sse.ac.in@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/yourprofile"
+      url: "https://www.linkedin.com/in/shreeyash-kavhale-679983293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/ShreeKavhale"
