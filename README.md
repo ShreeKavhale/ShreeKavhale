@@ -6,7 +6,7 @@ url: "https://shreekavhale.github.io"
 # Social links
 author:
   name: "Shreeyash Kavhale"
-  avatar: "/assets/images/profile.jpg"   # upload your photo to assets/images/
+  avatar: "https://github.com/ShreeKavhale/ShreeKavhale/blob/main/assets/images/shreeimg2025.png"   # upload your photo to assets/images/
   bio: "Master’s student in Economics, passionate about finance, investment banking, and data-driven decision making."
   location: "India"
   links:
