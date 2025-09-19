@@ -45,13 +45,15 @@ header p {
   margin: auto;
 }
 
-.about-pic {
+.profile-pic {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  border-radius: 50%; /* for a circle */
+  object-fit: cover;   /* to crop nicely if proportions mismatch */
+  display: block;
+  margin: 0 auto;       /* center horizontally */
 }
+
 
 .about-text {
   flex: 1;
