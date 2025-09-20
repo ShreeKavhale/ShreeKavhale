@@ -117,15 +117,14 @@ p {
   transform: translateY(-3px) scale(1.04);
   outline: none;
 }
-@media (max-width: 768px) {
-  .about-content {
-    flex-direction: column;
-    text-align: center;
-  }
-  .about-pic {
-    width: 160px;
-    height: 160px;
-  }
+@media (max-width: 768px) 
+.about {
+  background: white;
+  box-shadow: ...;
+  padding: 20px;
+  margin: 40px;
+  border-radius: 10px;
+}
 }
 
 .btn {
