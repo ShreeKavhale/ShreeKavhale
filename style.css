@@ -148,11 +148,14 @@ h2 {
 }
 
 /* Basic responsive rules */
-.profile-pic {
-  width: 200px;
-  height: 200px;
+#profile-photo {
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
+  display: block;
+  margin: 0 auto 1rem auto;
+  /* REMOVE any position: fixed or position: absolute! */
 }
 
 @media (max-width: 768px) {
