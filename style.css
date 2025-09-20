@@ -56,13 +56,8 @@ header {
 
 /* Sections */
 .section {
-  min-height: 100vh; 
-  padding: 100px 20px 60px; /* space for header and bottom gap */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin-top: 24px; /* Reduce from bigger values like 60px */
+  padding-top: 16px;
 }
 
 /* Neutral, professional color palette */
